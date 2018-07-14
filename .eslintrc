@@ -1,0 +1,16 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "comma-spacing": 0,
+    "semi": [2, "always"],
+    "quotes": [1, "single"],
+    "indent": ["error", 2],
+    "no-unused-vars": ["error", {
+      "varsIgnorePattern": "Taro"
+    }],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".jsx", ".tsx", ".js"]
+    }]
+  },
+  "parser": "babel-eslint"
+}
